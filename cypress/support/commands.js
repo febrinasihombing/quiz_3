@@ -1,6 +1,2 @@
-Cypress.Commands.add('login', () => {
-  cy.visit('/web/index.php/auth/login');
-  cy.get('input[name="username"]').type('Admin');
-  cy.get('input[name="password"]').type('admin123');
-  cy.get('button[type="submit"]').click();
-});
+// cypress/support/commands.js
+// Tempat untuk perintah kustom Cypress (kosong untuk saat ini)
